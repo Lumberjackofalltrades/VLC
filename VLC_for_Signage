@@ -1,0 +1,8 @@
+VLC automatic signage setup
+
+"PATH_TO_VLC_vlc.exe" "PATH_TO_VIDEOS" --playlist-autostart --fullscreen --loop --random
+
+Replace PATH_TO_VLC with the explicit path to vlc.exe, 
+and PATH_TO_VIDEOS with the explicit path to the folder that contains the video files. 
+You can set this script to run on startup by pressing the Windows Key + R and entering shell:startup. 
+Then, put the script in the folder that has opened up in explorer
